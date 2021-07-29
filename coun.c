@@ -23,7 +23,7 @@ void swap(int *a,int *b)
     *a=*b;
     *b=temp;
 }
-// Function for bubble_sorting
+// Function for selection_sorting
 void selection_sort(int arr[],int n) // parameter array and size
 {
     
@@ -62,7 +62,7 @@ void time_based_sorting(int intial_count,int increment_count)
         gettimeofday(&te,NULL);
         //storing starting time
         long long start=te.tv_sec*1000LL + te.tv_usec / 1000;
-        // calling bubble_sort for sorting element of array
+        // calling selection_sort for sorting element of array
         selection_sort(arr,t);
         gettimeofday(&te,NULL);
         // sorting ending time
