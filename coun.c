@@ -1,9 +1,9 @@
 /*
  * Execution : gcc coun.c
  * compilation : ./a.out
- * Program for time complexity Analysis of Bubble sort
- * @vasu , 1910990305 , 26/07/2021
- * Day2_Coding_Assignment.
+ * Program for time complexity Analysis of Selection sort
+ * @vasu , 1910990305 , 29/07/2021
+ * Coding_Assignment.
  */
 #include <stdio.h>
 #include <stdlib.h> // standard library
@@ -72,8 +72,8 @@ void time_based_sorting(int intial_count,int increment_count)
     }
 }
 int main() {
-        int intial_count=8000;
-        int increment_count=4000;
-        time_based_sorting(intial_count,increment_count);
-        return 0;
+    int intial_count=8000;
+    int increment_count=4000;
+    time_based_sorting(intial_count,increment_count);
+    return 0;
 }
