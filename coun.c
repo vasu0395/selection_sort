@@ -13,7 +13,7 @@ void generate_random_number(int arr[],int n) // parameter array and size
 {
     for(int i=0;i<n;i++)
     {
-        arr[i]=n - i; // using random function to initalize
+        arr[i]=rand()%n + 1; // using random function to initalize
     }
 }
 // Function to swap two number
